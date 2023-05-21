@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", function (req, res, next) {
-  res.send("Server Running Sucessfully!");
+  res.send("ChitChat Server by SaiChakri Running Sucessfully!");
 });
 
 mongoose
